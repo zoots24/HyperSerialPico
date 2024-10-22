@@ -1,7 +1,7 @@
 if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# User configuration for HyperSerialPico section starts here
 
-	# Some boards, such as the first Adafruit revisions, may have trouble booting properly
+	# Some boards, such atgs the first Adafruit revisions, may have trouble booting properly
 	# due to bad componets used in the design.
 	# Turn this setting to ON if your rp2040 is not detected after firmware upload and reset
 	set(BOOT_WORKAROUND OFF)
